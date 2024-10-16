@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Pizza Restaurant</title>
+    <style>
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url('images/banner3.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+        header {
+            background-color: #a21f1b;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+        nav {
+            background-color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 20px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #a21f1b;
+        }
+        .content {
+            padding: 10px;
+            text-align: center;
+        }
+        .banner {
+            margin: 20px 0;
+        }
+        .banner img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .contact-info {
+            margin: 20px 0;
+            text-align: left;
+            max-width: 600px;
+            margin: auto;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+            text-align: left;
+        }
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #a21f1b;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #a21f1b;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contactus.html">Contact Us</a>
+    </nav>
+
+    <div class="content">
+        <h2>Get in Touch!</h2>
+        <p>If you have any questions or feedback, feel free to reach out to us using the form below.</p>
+
+
+        <div class="contact-info">
+            <h3>Our Address</h3>
+            <p>Egypt , Cairo , Branch <br>
+            PizzaHut , </p>
+
+            <h3>Phone</h3>
+            <p>(+20) 12345678</p>
+
+            <h3>Email</h3>
+            <p>contact@pizzarestaurant.com</p>
+        </div>
+
+        <div class="contact-form">
+            <h3>Contact Form</h3>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pizza Restaurant. All rights reserved For US.</p>
+    </footer>
+
+</body>
+</html>
